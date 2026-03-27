@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lordes Pride — питомник Кавалер Кинг Чарльз Спаниелей</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* HEADER */
+        header {
+            background: url('https://images.unsplash.com/photo-1601758228041-f3b2795255f1') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+        }
+
+        header p {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #b48a5a;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #8a673f;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 60px 0;
+        }
+
+        .about, .advantages {
+            background: #f9f9f9;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 15px 0;
+        }
+
+        /* CTA */
+        .cta {
+            background: #b48a5a;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .cta h2 {
+            margin-bottom: 20px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!--
+Ожидаемые изображения в папке images/:
+- hero-cavalier.jpg
+- puppy-1.jpg
+- puppy-2.jpg
+- puppy-3.jpg
+- placeholder-puppy.svg (или любой fallback-изображение)
+-->
+
+<!-- HERO -->
+<header>
+    <div class="container">
+        <h1>Lordes Pride</h1>
+        <p>Питомник Кавалер Кинг Чарльз Спаниелей премиум-класса</p>
+        <a href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20выбрать%20щенка%20Lordes%20Pride" class="btn" target="_blank" rel="noopener noreferrer">Выбрать щенка</a>
+    </div>
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+    <div class="container">
+        <h2>О питомнике</h2>
+        <p>
+            Мы профессионально занимаемся разведением Кавалер Кинг Чарльз Спаниелей.
+            Наши собаки — это сочетание благородной родословной, здоровья и идеального характера.
+        </p>
+        <p><strong>Дата рождения текущего помёта:</strong> уточняйте актуальную дату при обращении.</p>
+    </div>
+</section>
+
+<!-- ADVANTAGES -->
+<section class="advantages">
+    <div class="container">
+        <h2>Почему выбирают нас</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Чемпионские линии</h3>
+                <p>Все щенки от титулованных родителей с отличной родословной.</p>
+            </div>
+
+            <div class="card">
+                <h3>Здоровье</h3>
+                <p>Контроль здоровья, ветеринарное сопровождение и тесты.</p>
+            </div>
+
+            <div class="card">
+                <h3>Социализация</h3>
+                <p>Щенки растут в доме, в любви и внимании.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PUPPIES -->
+<section>
+    <div class="container">
+        <h2>Наши щенки</h2>
+
+        <div class="grid">
+            <div class="card">
+                <img
+                    src="images/puppy-1.jpg"
+                    alt="Щенок кавалер кинг чарльз спаниеля, первый профиль"
+                    loading="lazy"
+                    onerror="this.onerror=null;this.src='images/placeholder-puppy.svg';"
+                >
+                <h3>Щенок 1</h3>
+                <p>Доступен к бронированию</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="images/puppy-2.jpg"
+                    alt="Щенок кавалер кинг чарльз спаниеля, второй профиль"
+                    loading="lazy"
+                    onerror="this.onerror=null;this.src='images/placeholder-puppy.svg';"
+                >
+                <h3>Щенок 2</h3>
+                <p>Зарезервирован</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="images/puppy-3.jpg"
+                    alt="Щенок кавалер кинг чарльз спаниеля, третий профиль"
+                    loading="lazy"
+                    onerror="this.onerror=null;this.src='images/placeholder-puppy.svg';"
+                >
+                <h3>Щенок 3</h3>
+                <p>Ожидается</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Хотите идеального компаньона?</h2>
+    <p>Напишите нам и мы подберем щенка именно для вас</p>
+    <a href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20подобрать%20щенка%20Lordes%20Pride" class="btn" target="_blank" rel="noopener noreferrer">Связаться</a>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <h2>Контакты</h2>
+        <p>Телефон: <a href="tel:+79255171955">+7 (925) 517-19-55</a></p>
+        <p>WhatsApp: <a href="https://wa.me/79255171955?text=Здравствуйте!%20Интересуют%20щенки%20Lordes%20Pride" target="_blank" rel="noopener noreferrer">написать в WhatsApp</a></p>
+        <p>Email: info@lordespride.com</p>
+        <p>Instagram: @lordes_pride</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Lordes Pride. Все права защищены.</p>
+</footer>
+
+</body>
+</html>

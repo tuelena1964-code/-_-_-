@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LORDES PRIDE — питомник кавалер кинг чарльз спаниелей</title>
+  <meta
+    name="description"
+    content="Питомник кавалер кинг чарльз спаниелей LORDES PRIDE. Породные щенки с устойчивой психикой, проверенным здоровьем и мягким характером."
+  />
+  <meta name="theme-color" content="#f5efe7" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!--
+    Изображения ожидаются в папке images/ (пути уже используются в проекте):
+    - hero-cavalier.jpg
+    - about-puppy.jpg
+    - mother.jpg
+    - father.jpg
+    - review-dog.jpg
+    - puppy-1.jpg
+    - puppy-2.jpg
+    - puppy-3.jpg
+    - puppy-4.jpg
+  -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#top" class="brand" aria-label="LORDES PRIDE">
+        <div class="brand__logo">LP</div>
+        <div class="brand__text">
+          <p class="brand__title">LORDES PRIDE</p>
+          <p class="brand__subtitle">Питомник кавалер кинг чарльз спаниелей</p>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#about">О помёте</a>
+        <a href="#why-us">Почему мы</a>
+        <a href="#puppies">Щенки</a>
+        <a href="#price">Условия</a>
+        <a href="#application">Заявка</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-secondary" href="#puppies">Посмотреть щенков</a>
+        <a class="btn btn-secondary" href="tel:+79255171955">Позвонить</a>
+        <a
+          class="btn btn-primary"
+          href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20получить%20актуальные%20фото%20и%20видео%20щенков%20LORDES%20PRIDE"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Написать в WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <div class="eyebrow">Питомник премиум-класса</div>
+
+          <h1 class="hero__title">
+            Кавалеры, с которыми<br />
+            спокойно, тепло<br />
+            и по-настоящему хорошо
+          </h1>
+
+          <p class="hero__text">
+            Питомник кавалер кинг чарльз спаниелей <strong>LORDES PRIDE</strong>.
+            Породные щенки с устойчивой психикой, проверенным здоровьем
+            и мягким характером для жизни в семье, любви и настоящей близости с человеком.
+          </p>
+
+          <div class="hero__actions">
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20выбрать%20щенка%20LORDES%20PRIDE.%20Пришлите,%20пожалуйста,%20актуальные%20фото%20и%20видео"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Выбрать щенка
+            </a>
+
+            <a class="btn btn-secondary" href="#about">
+              О помёте
+            </a>
+          </div>
+
+          <div class="hero__microcopy">
+            <div>Поможем подобрать щенка под ваш характер и образ жизни</div>
+            <div>Без обязательств, давления и навязчивых продаж</div>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat-card">
+              <p class="stat-card__value">100%</p>
+              <p class="stat-card__label">Поддержка после покупки</p>
+            </div>
+            <div class="stat-card">
+              <p class="stat-card__value">8–10</p>
+              <p class="stat-card__label">Недель — оптимальный возраст передачи</p>
+            </div>
+            <div class="stat-card">
+              <p class="stat-card__value">24/7</p>
+              <p class="stat-card__label">На связи по вопросам адаптации</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero-card">
+            <img
+              class="hero-card__image"
+              src="images/hero-cavalier.jpg"
+              alt="Щенки кавалер кинг чарльз спаниеля в уютной домашней съемке"
+            />
+            <div class="hero-card__overlay"></div>
+            <div class="hero-badge">Породные щенки • домашнее выращивание</div>
+
+            <div class="hero-floating">
+              <h3 class="hero-floating__title">Что вы получите сразу</h3>
+              <p class="hero-floating__text">
+                Актуальные фото и видео щенков, помощь с подбором и ответы на все вопросы.
+              </p>
+              <ul class="hero-floating__list">
+                <li>Подбор под ваш ритм жизни</li>
+                <li>Фото и видео без ожидания</li>
+                <li>Прозрачные условия бронирования</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">О помёте</div>
+          <h2 class="section-title">Щенки для семьи, близости и спокойной счастливой жизни рядом</h2>
+          <p class="section-text">
+            Этот помёт создан для тех, кто ищет не просто красивую собаку,
+            а здорового, уравновешенного и ориентированного на человека кавалера.
+          </p>
+        </div>
+
+        <div class="info-grid">
+          <div class="media-card reveal">
+            <img
+              src="images/about-puppy.jpg"
+              alt="Щенок кавалер кинг чарльз спаниеля крупным планом"
+            />
+          </div>
+
+          <div class="panel reveal">
+            <h3>Ключевая информация</h3>
+
+            <ul class="info-list">
+              <li>
+                <div class="info-list__label">Дата рождения</div>
+                <div class="info-list__value">уточняйте актуальную дату при обращении</div>
+              </li>
+              <li>
+                <div class="info-list__label">Доступность</div>
+                <div class="info-list__value">наличие щенков уточняйте в WhatsApp</div>
+              </li>
+              <li>
+                <div class="info-list__label">Окрасы</div>
+                <div class="info-list__value">бленхейм, триколор, рубин, чёрно-подпалый</div>
+              </li>
+              <li>
+                <div class="info-list__label">Формат жизни</div>
+                <div class="info-list__value">компаньон, семья, шоу и спорт</div>
+              </li>
+            </ul>
+
+            <p class="section-text panel-text">
+              Мы выращиваем щенков с упором на здоровье, психику, социализацию и мягкую адаптацию к жизни рядом с человеком.
+              Это особенно важно, если вы хотите собаку, с которой будет легко жить каждый день.
+            </p>
+
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20получить%20подборку%20актуальных%20щенков%20LORDES%20PRIDE"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Получить подборку щенков
+            </a>
+            <div class="cta-note">Пришлём актуальные фото и видео щенков</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Почему выбирают LORDES PRIDE</div>
+          <h2 class="section-title">Премиальный подход без компромиссов в здоровье, психике и качестве выращивания</h2>
+          <p class="section-text">
+            Мы строим доверие не обещаниями, а системой: генетика, тесты, ранняя работа с психикой,
+            бережное выращивание и поддержка после передачи щенка.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">01</div>
+            <h3>Породный тип и стабильная генетика</h3>
+            <p>Щенки от титулованных родителей с проверенными линиями и правильным породным типом.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">02</div>
+            <h3>Полные тесты здоровья</h3>
+            <p>Контроль по ключевым наследственным рискам, проверка глаз, сердца и общего состояния.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">03</div>
+            <h3>Работа с психикой</h3>
+            <p>Ранняя нейростимуляция ENS и мягкая социализация с первых дней жизни щенка.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">04</div>
+            <h3>Профессиональное выращивание</h3>
+            <p>Привыкание к дому, бытовым звукам, рутине, человеку и спокойной жизни рядом с семьёй.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">05</div>
+            <h3>Прозрачные условия</h3>
+            <p>Договор, документы, понятные этапы бронирования и никакой скрытой информации.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">06</div>
+            <h3>Поддержка после покупки</h3>
+            <p>Мы остаёмся на связи по вопросам ухода, питания, адаптации и воспитания щенка.</p>
+          </article>
+        </div>
+
+        <div class="section-cta reveal">
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/79255171955?text=Здравствуйте!%20Подскажите,%20кто%20из%20щенков%20сейчас%20доступен"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Узнать, кто сейчас доступен
+          </a>
+          <div class="cta-note">Подскажем, какие щенки подходят именно вам</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Родители помёта</div>
+          <h2 class="section-title">Лучшие качества, передающиеся дальше — тип, психика, контактность и мягкий темперамент</h2>
+          <p class="section-text">
+            Мы уделяем внимание не только внешности, но и тому, как собака живёт рядом с человеком:
+            насколько она устойчива, доброжелательна и комфортна в повседневной жизни.
+          </p>
+        </div>
+
+        <div class="split">
+          <article class="profile-card card reveal">
+            <div class="profile-card__image">
+              <img src="images/mother.jpg" alt="Мать щенков — кавалер кинг чарльз спаниель" />
+            </div>
+            <div class="profile-card__body">
+              <p class="profile-card__topline">Мать</p>
+              <h3>LORDES PRIDE AURORA</h3>
+              <p><strong>Характер:</strong> уравновешенная, ласковая, внимательная, контактная.</p>
+              <p><strong>В жизни:</strong> хорошо адаптируется к городу, спокойна дома, нежна с детьми.</p>
+              <p><strong>Ценность для помёта:</strong> мягкий темперамент, породность и стабильность поведения.</p>
+            </div>
+          </article>
+
+          <article class="profile-card card reveal">
+            <div class="profile-card__image">
+              <img src="images/father.jpg" alt="Отец щенков — кавалер кинг чарльз спаниель" />
+            </div>
+            <div class="profile-card__body">
+              <p class="profile-card__topline">Отец</p>
+              <h3>Титулованный кобель</h3>
+              <p><strong>Характер:</strong> дружелюбный, активный, уверенный, ориентированный на человека.</p>
+              <p><strong>В жизни:</strong> легко обучается, хорошо работает в контакте с человеком, открыт к взаимодействию.</p>
+              <p><strong>Ценность для помёта:</strong> стабильная психика, выразительный тип и хорошая обучаемость.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Характер щенков</div>
+          <h2 class="section-title">Какими вырастают щенки LORDES PRIDE</h2>
+          <p class="section-text">
+            Мы стремимся к тому, чтобы будущий владелец получал не только красивого щенка,
+            но и собаку, с которой легко строить отношения каждый день.
+          </p>
+        </div>
+
+        <div class="traits-grid">
+          <article class="mini-card reveal">
+            <h3>Уравновешенность</h3>
+            <p>Спокойная реакция на новые ситуации без лишней тревожности и нервозности.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Ориентация на человека</h3>
+            <p>Естественное желание быть рядом, взаимодействовать и включаться в жизнь семьи.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Хорошая обучаемость</h3>
+            <p>Интерес к контакту, быстрая адаптация к новым правилам и мягкому обучению.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Контактность</h3>
+            <p>Дружелюбное отношение к людям и животным, мягкость и отсутствие агрессии.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Адаптивность</h3>
+            <p>Лёгкая жизнь в квартире, доме, городе и в повседневной семейной рутине.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Комфорт в быту</h3>
+            <p>Щенки растут в условиях, максимально близких к реальной домашней жизни.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="puppies" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Доступные щенки</div>
+          <h2 class="section-title">Подберём щенка под ваш образ жизни, ожидания и характер семьи</h2>
+          <p class="section-text">
+            У каждого щенка свой темперамент. Мы помогаем выбрать не “самого красивого на фото”,
+            а действительно подходящего вам по энергии, мягкости и стилю жизни.
+          </p>
+        </div>
+
+        <div id="puppies-list" class="puppies-grid" aria-live="polite"></div>
+
+        <template id="puppy-card-template">
+          <article class="puppy-card reveal">
+            <div class="puppy-card__image">
+              <img class="puppy-card__img" src="" alt="" />
+            </div>
+            <div class="puppy-card__body">
+              <div class="puppy-card__badge"></div>
+              <h3 class="puppy-card__name"></h3>
+              <p class="puppy-card__desc"></p>
+              <div class="puppy-card__meta"></div>
+            </div>
+          </article>
+        </template>
+
+        <div class="section-cta reveal">
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/79255171955?text=Здравствуйте!%20Помогите%20подобрать%20щенка%20под%20мой%20образ%20жизни"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Подобрать щенка под себя
+          </a>
+          <div class="cta-note">С учётом вашего ритма жизни и ожиданий</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Как мы выращиваем</div>
+          <h2 class="section-title">Система, которая формирует устойчивую психику и мягкую адаптацию</h2>
+          <p class="section-text">
+            Основа нашей работы — здоровье, спокойствие и подготовка щенка к реальной домашней жизни.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article class="mini-card reveal">
+            <h3>Ранняя нейростимуляция ENS</h3>
+            <p>Упражнения в первые дни жизни для развития нервной системы и стрессоустойчивости.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Социализация</h3>
+            <p>Контакт с людьми, детьми, звуками дома и разными бытовыми сценариями.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Адаптация к быту</h3>
+            <p>Пылесос, звонки, техника, текстуры, переноска, рутина — всё проходит мягко и постепенно.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Контроль питания</h3>
+            <p>Сбалансированный рацион и наблюдение за ростом, весом и общим состоянием щенка.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Ветеринарный контроль</h3>
+            <p>Осмотры, вакцинация, профилактика и внимательное сопровождение каждого этапа развития.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Мягкое воспитание</h3>
+            <p>Без давления и резкости — только последовательность, терпение и спокойный контакт.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Отзывы владельцев</div>
+          <h2 class="section-title">Когда щенок становится настоящей частью семьи с первого дня</h2>
+          <p class="section-text">
+            Для нас важно не просто передать щенка, а дать человеку уверенность,
+            что он делает правильный и безопасный выбор.
+          </p>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-stack">
+            <article class="review-card reveal">
+              <p class="review-card__quote">
+                «Щенок стал частью семьи буквально с первого дня. Очень ласковый, спокойный и невероятно комфортный дома.
+                Заводчик был на связи на каждом этапе — от выбора до адаптации.»
+              </p>
+              <div class="review-card__meta">Елена и Дмитрий, Москва</div>
+            </article>
+
+            <article class="review-card reveal">
+              <p class="review-card__quote">
+                «Наша собака идеально вписалась в жизнь семьи. Всё прошло спокойно, понятно и очень бережно.
+                Видно, что в питомнике действительно любят породу и занимаются щенками профессионально.»
+              </p>
+              <div class="review-card__meta">Анна, Санкт-Петербург</div>
+            </article>
+
+            <div class="reveal">
+              <a
+                class="btn btn-primary"
+                href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20такого%20же%20щенка.%20Покажите,%20пожалуйста,%20похожих"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Хочу такого же щенка
+              </a>
+              <div class="cta-note">Покажем похожих щенков, доступных сейчас</div>
+            </div>
+          </div>
+
+          <div class="review-media media-card reveal">
+            <img
+              src="images/review-dog.jpg"
+              alt="Счастливый кавалер кинг чарльз спаниель дома"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Что вы получаете</div>
+          <h2 class="section-title">Всё, что нужно для спокойного старта в новой семье</h2>
+          <p class="section-text">
+            Мы передаём щенка не “в пустоту”, а с понятным пакетом документов, рекомендаций и поддержкой.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          <article class="mini-card reveal">
+            <h3>Договор купли-продажи</h3>
+            <p>Прозрачные условия передачи щенка и фиксированные договорённости.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Ветеринарный паспорт</h3>
+            <p>С прививками, отметками и всей базовой информацией по здоровью.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Метрика для родословной</h3>
+            <p>Документы, необходимые для дальнейшего оформления родословной.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Инструкция по уходу</h3>
+            <p>Подробные рекомендации по адаптации, питанию, воспитанию и режиму.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Стартовый набор</h3>
+            <p>Корм, любимая игрушка и пелёнка с запахом дома для мягкой адаптации.</p>
+          </article>
+
+          <article class="mini-card reveal">
+            <h3>Поддержка после покупки</h3>
+            <p>Мы остаёмся на связи столько, сколько нужно, чтобы вам было спокойно.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="price" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Стоимость и условия</div>
+          <h2 class="section-title">Понятные условия бронирования без стресса и неопределённости</h2>
+          <p class="section-text">
+            Мы ценим спокойный диалог и прозрачность. Вы заранее понимаете,
+            как проходит бронь, когда возможна передача и что входит в стоимость.
+          </p>
+        </div>
+
+        <div class="pricing">
+          <div class="pricing-card reveal">
+            <h3>Стоимость щенка</h3>
+            <div class="price">
+              <div class="price__value">80 000 ₽</div>
+              <div class="price__suffix">от</div>
+            </div>
+
+            <ul class="pricing-list">
+              <li>Финальная стоимость зависит от пола, перспективы и конкретного щенка</li>
+              <li>Предоплата 30% для бронирования выбранного щенка</li>
+              <li>Оптимальный возраст передачи — 8–10 недель</li>
+              <li>Возможна дистанционная бронь для клиентов из других городов</li>
+              <li>Поможем с организацией доставки</li>
+            </ul>
+
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20узнать%20стоимость%20и%20наличие%20щенков"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Узнать стоимость и наличие
+            </a>
+            <div class="cta-note">Ответим в течение 10–15 минут</div>
+          </div>
+
+          <div class="pricing-card reveal">
+            <h3>Как проходит бронь</h3>
+            <ul class="pricing-list">
+              <li>Вы пишете нам и рассказываете, какой формат собаки вам нужен</li>
+              <li>Мы присылаем актуальные фото и видео щенков</li>
+              <li>Помогаем выбрать щенка по характеру и стилю жизни</li>
+              <li>Фиксируем бронь после согласования и предоплаты</li>
+              <li>Готовим щенка к переезду и сопровождаем передачу</li>
+            </ul>
+
+            <a
+              class="btn btn-secondary"
+              href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20забронировать%20щенка.%20Подскажите,%20что%20нужно%20дальше"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Забронировать щенка
+            </a>
+            <div class="pricing-note">
+              Закрепим за вами выбранного щенка и подробно объясним следующий шаг.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="application" class="section-sm">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Заявка и подбор</div>
+          <h2 class="section-title">Расскажите о себе — подберём щенка LORDES PRIDE</h2>
+          <p class="section-text">
+            Ответим в WhatsApp или по телефону, зададим пару уточняющих вопросов и подберём вариант под ваш ритм жизни.
+          </p>
+        </div>
+
+        <div class="application-grid">
+          <form id="lead-form" class="application-form reveal">
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="lead-name">Ваше имя</label>
+                <input id="lead-name" name="name" type="text" required placeholder="Например, Елена" />
+              </div>
+
+              <div class="form-field">
+                <label for="lead-phone">Телефон / WhatsApp</label>
+                <input
+                  id="lead-phone"
+                  name="phone"
+                  type="tel"
+                  required
+                  inputmode="tel"
+                  placeholder="+7..."
+                />
+              </div>
+
+              <div class="form-field">
+                <label for="lead-city">Город (и район)</label>
+                <input id="lead-city" name="city" type="text" placeholder="Например, Московская область" />
+              </div>
+
+              <div class="form-field">
+                <label for="lead-sex">Желаемый пол</label>
+                <select id="lead-sex" name="sex">
+                  <option value="Любой" selected>Любой</option>
+                  <option value="Кобель">Кобель</option>
+                  <option value="Сука">Сука</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="lead-age">Возраст/когда хотите забрать</label>
+                <input id="lead-age" name="age" type="text" placeholder="Например, 8–10 недель" />
+              </div>
+
+              <div class="form-field">
+                <label for="lead-color">Предпочтительный окрас (если есть)</label>
+                <input id="lead-color" name="color" type="text" placeholder="Бленхейм / триколор / рубин..." />
+              </div>
+
+              <div class="form-field form-field--full">
+                <label for="lead-message">Пожелания</label>
+                <textarea
+                  id="lead-message"
+                  name="message"
+                  rows="4"
+                  placeholder="Семья, дети, ритм дня, нужен ли спокойный компаньон или более активный вариант..."
+                ></textarea>
+              </div>
+
+              <label class="form-checkbox form-field--full">
+                <input type="checkbox" name="consent" value="yes" required />
+                <span>
+                  Согласен(на) на обработку данных и связь со мной по WhatsApp/телефону
+                </span>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">
+                Отправить заявку в WhatsApp
+              </button>
+            </div>
+
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <article class="mini-card application-contact reveal">
+            <h3>Контакты для связи</h3>
+            <p>
+              WhatsApp:
+              <a href="https://wa.me/79255171955" target="_blank" rel="noopener noreferrer">+7 (925) 517-19-55</a>
+            </p>
+            <p>
+              Звонки:
+              <a href="tel:+79255171955">+7 (925) 517-19-55</a>
+            </p>
+            <p>
+              Обычно отвечаем в течение <strong>10–15 минут</strong>.
+            </p>
+            <p>Россия, Московская область. Помогаем с организацией переезда.</p>
+            <a
+              class="btn btn-secondary"
+              href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20подбор%20щенка%20LORDES%20PRIDE."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Быстро написать
+            </a>
+            <div class="cta-note">Можно писать уже сейчас — ответим и уточним детали</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section-sm">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Частые вопросы</div>
+          <h2 class="section-title">Ответы на вопросы, которые важны перед выбором щенка</h2>
+          <p class="section-text">
+            Если не нашли ответ — просто напишите нам. Мы спокойно всё объясним и поможем определиться.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item reveal active">
+            <button class="faq-question" type="button">
+              <span>Как выбрать щенка?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer" style="max-height: 300px;">
+              <div class="faq-answer__inner">
+                Мы помогаем подобрать щенка не только по внешности, но и по темпераменту,
+                вашему образу жизни, составу семьи и ожиданиям от собаки.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" type="button">
+              <span>Можно ли приехать познакомиться?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Да, знакомство возможно по предварительной договорённости.
+                Мы расскажем о каждом щенке, покажем условия содержания и ответим на вопросы.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" type="button">
+              <span>Какие документы получает владелец?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Вы получаете договор, ветеринарный паспорт, метрику для оформления родословной,
+                а также рекомендации по уходу, питанию и адаптации.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question" type="button">
+              <span>Есть ли поддержка после покупки?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer__inner">
+                Да. Мы остаёмся на связи и после передачи щенка:
+                по вопросам кормления, воспитания, адаптации и повседневной жизни с собакой.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-cta reveal">
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/79255171955?text=Здравствуйте!%20У%20меня%20есть%20вопрос%20по%20щенкам%20LORDES%20PRIDE"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Задать вопрос
+          </a>
+          <div class="cta-note">Ответим и поможем определиться</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div class="cta-banner__grid">
+            <div>
+              <div class="eyebrow">Финальный шаг</div>
+              <h2>Готовы познакомиться со своим будущим щенком?</h2>
+              <p>
+                Мы поможем подобрать именно вашего кавалера, пришлём актуальные фото и видео,
+                расскажем о характере каждого щенка и спокойно ответим на все вопросы.
+              </p>
+            </div>
+
+            <div class="cta-box">
+              <ul>
+                <li>Актуальные фото и видео уже сегодня</li>
+                <li>Подбор под ваш образ жизни</li>
+                <li>Прозрачные условия брони</li>
+                <li>Без давления и спешки</li>
+              </ul>
+
+              <a
+                class="btn btn-primary cta-box__button"
+                href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20познакомиться%20со%20щенками%20LORDES%20PRIDE.%20Пришлите,%20пожалуйста,%20фото%20и%20видео"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Написать в WhatsApp
+              </a>
+              <div class="cta-note">Пришлём фото, видео и поможем выбрать щенка уже сегодня</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-card">
+        <p><strong>LORDES PRIDE</strong> — питомник кавалер кинг чарльз спаниелей</p>
+        <p>© 2026. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-cta">
+    <a class="btn btn-secondary" href="#puppies">Щенки</a>
+    <a
+      class="btn btn-primary"
+      href="https://wa.me/79255171955?text=Здравствуйте!%20Хочу%20получить%20фото%20и%20видео%20щенков%20LORDES%20PRIDE"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      WhatsApp
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
